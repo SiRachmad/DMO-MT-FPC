@@ -1,0 +1,98 @@
+object Form1: TForm1
+  Left = 256
+  Height = 240
+  Top = 145
+  Width = 403
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 403
+  OnClose = FormClose
+  OnCreate = FormCreate
+  LCLVersion = '2.2.0.1'
+  object Button1: TButton
+    Left = 216
+    Height = 25
+    Top = 32
+    Width = 75
+    Caption = 'Start'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 216
+    Height = 25
+    Top = 60
+    Width = 75
+    Caption = 'Start'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 216
+    Height = 25
+    Top = 88
+    Width = 75
+    Caption = 'Start'
+    OnClick = Button3Click
+    TabOrder = 2
+  end
+  object ProgressBar1: TProgressBar
+    Left = 8
+    Height = 20
+    Top = 35
+    Width = 200
+    TabOrder = 3
+  end
+  object ProgressBar2: TProgressBar
+    Left = 8
+    Height = 20
+    Top = 63
+    Width = 200
+    TabOrder = 4
+  end
+  object ProgressBar3: TProgressBar
+    Left = 8
+    Height = 20
+    Top = 91
+    Width = 200
+    TabOrder = 5
+  end
+  object Edit1: TEdit
+    Left = 8
+    Height = 23
+    Top = 121
+    Width = 200
+    TabOrder = 6
+    Text = 'Edit1'
+  end
+  object Button4: TButton
+    Left = 216
+    Height = 25
+    Top = 119
+    Width = 75
+    Caption = 'Show Mess'
+    OnClick = Button4Click
+    TabOrder = 7
+  end
+  object Label1: TLabel
+    Left = 300
+    Height = 15
+    Top = 38
+    Width = 34
+    Caption = 'Label1'
+  end
+  object Label2: TLabel
+    Left = 300
+    Height = 15
+    Top = 63
+    Width = 34
+    Caption = 'Label2'
+  end
+  object Label3: TLabel
+    Left = 300
+    Height = 15
+    Top = 91
+    Width = 34
+    Caption = 'Label3'
+  end
+end
